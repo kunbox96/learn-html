@@ -33,10 +33,35 @@
         flex-wrap: nowrap;
         /* không xuống dòng */
         font-size: 25px;
+        margin-bottom: 20px;
       }
 
       img.google-logo {
         width: 25px;
+      }
+
+      div.flex-container {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+      }
+
+      .button-collection {
+        background-color: #f9d84c;
+        border: none;
+        height: 28px;
+        width: 150px;
+        border-radius: 14px;
+        cursor: pointer;
+      }
+
+      .button-collection:hover {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+      }
+
+      .button-collection:active {
+        opacity: 0.4;
       }
     </style>
   </head>
@@ -47,11 +72,8 @@
       <a href="images/Yua1.png" download>Hot Sauce</a>
       <a href="#section-html">HTML</a>
       <a href="https://google.com" target="_blank"
-        ><img
-          src="images/googlelogo.png"
-          alt="Google Logo"
-          class="google-logo"
-      ></a>
+        ><img src="images/googlelogo.png" alt="Google Logo" class="google-logo"
+      /></a>
     </div>
 
     <a
@@ -63,7 +85,13 @@
         class="cover-img"
     /></a>
 
-    <p class="username">@alvinnguyen</p>
+    <div class="flex-container">
+      <p class="username">@alvinnguyen</p>
+      <span class="username">@alvinnguyen</span>
+      <a href="button.html"
+        ><button class="button-collection">Button Collection</button></a
+      >
+    </div>
     <p class="paragraph">Love to <em>learn</em></p>
 
     <h2 id="section-html">HMTL</h2>
