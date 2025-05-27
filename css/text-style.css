@@ -1,5 +1,6 @@
-p {
-  font-family: Arial;
+p,
+button {
+  font-family: Roboto;
   margin: 0px 0px;
 }
 
@@ -34,6 +35,7 @@ p {
   width: 284px;
   line-height: 22px;
   margin-bottom: 6px;
+  font-weight: 600;
 }
 
 .video-status {
@@ -52,6 +54,7 @@ p {
   margin-bottom: 20px;
   width: 284px;
   font-size: 14px;
+  line-height: 18px;
 }
 
 .video-shopnow {
