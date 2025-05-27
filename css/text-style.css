@@ -54,7 +54,7 @@ button {
   margin-bottom: 20px;
   width: 284px;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 .video-shopnow {
@@ -74,4 +74,62 @@ span {
 span:hover {
   text-decoration: underline;
   color: greenyellow;
+}
+
+.linkedin-email {
+  color: rgb(96, 96, 96);
+  margin-bottom: 8px;
+}
+
+.linkedin-search-box {
+  font-size: 18px;
+  width: 380px;
+  margin-bottom: 15px;
+}
+
+.policy-agreement {
+  margin-bottom: 10px;
+}
+
+.regist-linkedin-button {
+  background-color: #0963bd;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  padding: 10px 80px;
+  transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.regist-linkedin-button:hover {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+}
+
+.regist-linkedin-button:active {
+  opacity: 0.4;
+}
+
+.gg-logo {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.gg-search {
+  width: 60%;
+  height: 30px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
 }
